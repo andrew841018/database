@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.team.frame">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".NAV"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".judge"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".text"
+            android:label="@string/title_activity_text"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Webview"
+            android:label="@string/title_activity_webview"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".search"
+            android:label="@string/title_activity_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".searchhistory"
+            android:label="@string/title_activity_searchhistory"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".history"
+            android:label="@string/title_activity_history"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".love"
+            android:label="@string/title_activity_love"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".picture"
+            android:label="@string/title_activity_picture"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".judge1"
+            android:label="@string/title_activity_judge1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".law"
+            android:label="@string/title_activity_law"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".url"
+            android:label="@string/title_activity_url"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

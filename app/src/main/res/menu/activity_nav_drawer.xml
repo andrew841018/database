@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="搜尋理由" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="歷史紀錄" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="我的最愛" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="搜尋法條" />
+
+    </group>
+
+    <item android:title="統計">
+        <menu>
+            <item
+                android:id="@+id/picture"
+                android:title="圖表" />
+            <item
+                android:id="@+id/nav_send"
+                android:title="" />
+        </menu>
+    </item>
+
+</menu>
